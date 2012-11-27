@@ -1,0 +1,24 @@
+body{
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: rgb(250, 245, 245);
+}
+
+#main_content{
+	background-color: white;
+	padding: 20px;
+}
+
+h1, h3{
+	color: rgb(0, 75, 15);
+	text-align: center;
+}
+
+h2{
+	color: rgb(0, 15, 75);
+}
+
+#site_intent, #competitive_analysis, #target_audience{
+	border-top: 1px solid rgb(0, 175, 175);
+	margin-bottom: 30px;
+}
