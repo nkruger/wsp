@@ -1,7 +1,7 @@
 /*	colors =========================================
 #c7b299 tan
-#c7b299 sea green; #002a27 darker sea green
-#d9e021 yellow; #363808 darker yellow
+#00a99d sea green; #002a27 darker sea green
+#d9e021 yellow; #a3a819 #363808 darker yellows
 #ffffff white
 #000000 black
 */
@@ -28,8 +28,158 @@ p, h2, a {
 h1 a {
 	font-family: 'Alex Brush', cursive;
 	font-weight: 400;
+	font-size: 0.9em;
 }
 nav a {
 	font-family: 'BenchNine', 'Arial Narrow', sans-serif;
-	font-weight: 300;	
+	font-weight: 300;
+	font-size: 0.9958464666525587em;	
+}
+
+/*	body-misc ======================================
+*/
+body {
+	background-color: #ffffff;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+	font-size: 100%
+}
+#content_wrapper{
+	background-color: #c7b299;
+	padding: 1.04166666666667%;
+}
+
+/* links ===============
+*/
+a:link {
+	color: #d9e021;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: #a3a819;
+}
+a:active {
+	text-shadow: 0.1em 0.1em 0.3em #aaf;
+}
+
+/*	header ========================================= 
+*/
+/*	logo ===============
+*/
+h1 {
+	margin: 0;
+	padding: 0;
+	width: 14.68085106383%; /*138*/
+	line-height: 8.297872340426%; /* 78px */
+	text-align: center;
+	float: left;
+	text-shadow: 0.05em 0.05em 0.1em #002;
+	background-image: url("../images/logo_bg.jpg");
+	background-color: white;
+	border: 1px solid black;
+	line-height: 78px;
+}
+h1 a:link{
+	width: 14.68085106383%;
+	line-height: 8.297872340426%;
+	color: black;
+	text-decoration: none;
+}
+h1 a:hover{
+	color: white;
+}
+h1 a:visited {
+	color: black;
+}
+
+/* nav =================
+*/
+nav {
+	background-color: black;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0 0 0 2.127659574468%; /* 20px */
+	overflow: hidden;
+}
+nav ul li a:link{
+	display: block;
+	float: left;
+	width: 16.4102564102564%; /*128px; */
+	height: 38px;
+/*	border-top: 1px solid white; */
+	border-left: 1px solid #808080;
+/*	border-bottom: 1px solid #808080; */
+	text-align: center;
+	line-height: 38px;
+	color: #00a99d;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color:white;
+}
+#active_nav_tab a:link {
+	color: black;
+	background-color: #c7b299;
+}
+nav ul li a:visited {
+	color: #00a99d;
+#active_nav_tab a:hover {
+	text-decoration: underline;
+}
+}
+
+/*	motto ==============
+*/
+#motto {
+	padding-left: 2.127659574468%; /* 20px */
+}
+#motto h2{
+	font-size: 1.0037500100375em; /* 12pt */
+	text-indent: 2.127659574468%;
+	line-height: 17px;
+	color: white;
+	text-shadow: 0.05em 0.05em 0.1em #002;
+}
+
+/*	main content ==================================
+*/
+.main_content {
+	clear: both;
+}
+/*	cta ===============
+*/
+#cta {
+	margin-top: 20px;
+	padding: 10px 1.04166666666667%;
+	width: 97.916666666667%;
+	height: 380px;
+	background-image: url("../images/cta_bg.jpg");
+	background-color: #da7d81;s
+}
+#cta h3 {
+	color: #d9e021;
+	text-shadow: 0.05em 0.05em 0.1em #002;
+	margin: 0;
+}
+#cta_copy {
+	width: 30.851063829787%;
+	float: left;
+	font-size: .85em;
+	text-shadow: 0.1em 0.1em 0.3em #aaf;
+}
+#cta_extra_info {
+	font-size: .75em;
+}
+
+#home_vid_links {
+	clear: both;
+}
+/* footer ========================================= 
+*/
+footer {
+	clear: both;
 }
