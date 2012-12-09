@@ -1,2 +1,35 @@
+/*	colors =========================================
+#c69c6d tan
+#603813 brown
+#2e3d29 dark green
+#8cc63f light green
+#da7d81 light red
+*/
 
 @import "normalize.css";
+
+/* Google Fonts ====================================
+*/
+@import url(http://fonts.googleapis.com/css?family=Alex+Brush|Almendra:700|BenchNine:300|Archivo+Narrow:400,400italic);
+/*	fonts ==========================================
+font-family: 'Alex Brush', cursive;
+font-family: 'Almendra', 'Georgia', serif;
+font-family: 'BenchNine', 'Arial Narrow', sans-serif;
+font-family: 'Archivo Narrow', 'Arial', sans-serif;
+*/
+h3, h4, h5, h6 {
+	font-family: 'Almendra', 'Georgia', serif;
+	font-weight: 700;
+}
+p, h2, a {
+	font-family: 'Archivo Narrow', 'Arial', sans-serif;
+	font-weight: 400;
+}
+h1 a {
+	font-family: 'Alex Brush', cursive;
+	font-weight: 400;
+}
+nav a {
+	font-family: 'BenchNine', 'Arial Narrow', sans-serif;
+	font-weight: 300;	
+}
